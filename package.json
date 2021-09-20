@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Kamil Mysliwiec",
   "scripts": {
-    "build": "gulp build --dist node_modules/@nestjs",
+    "build": "gulp build --dist /home/jason/Code/playground/nestjs-fastify-middleware-example/node_modules/@nestjs",
     "postbuild": "gulp move",
     "prebuild:prod": "npm run clean",
     "build:prod": "gulp build",
